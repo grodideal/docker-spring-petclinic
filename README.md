@@ -9,7 +9,9 @@ Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) applicatio
 
 ```
 git clone https://github.com/spring-projects/spring-petclinic.git
-cd spring-petclinic
+cd docker-spring-petclinic
+docker build --tag=example/spring-petclinic
+ocker run -d -p 80:8080 IMAGE ID
 
 ```
 
