@@ -11,4 +11,4 @@ RUN ./mvnw package
 EXPOSE 8080
 
 # set the startup command to execute the jar
-CMD ["java", "-jar", "target/spring-petclinic-2.4.0.BUILD-SNAPSHOT.jar"]
+CMD ["java", "-jar", "java -jar target/*.jar"]
